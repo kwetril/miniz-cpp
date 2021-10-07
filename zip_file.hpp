@@ -515,7 +515,7 @@ typedef unsigned short mz_uint16;
 typedef unsigned int mz_uint32;
 typedef unsigned int mz_uint;
 typedef long long mz_int64;
-typedef unsigned long long mz_uint64;
+using mz_uint64 = std::uint64_t;
 typedef int mz_bool;
 
 #define MZ_FALSE (0)
